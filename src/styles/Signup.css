@@ -1,0 +1,159 @@
+.container{
+    max-width: 22.5rem;
+    height: 25rem;
+    background: #FFFFFF;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 1px;
+}
+
+.box1{
+    width: 100%;
+    text-align: center;
+}
+
+.instaLogoText{
+    width: 11rem;
+    height: 4rem;
+    margin: 22px auto 30px;
+}
+
+.form-box{
+    margin: 0 auto 10px;
+    max-width: 17rem;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 2.5rem;
+    margin-bottom: 6px;
+    border: 1.2px solid rgba(0,0,0, 0.2);
+    border-radius: 2px;
+    background: #FAFAFA;
+}
+
+input:focus{
+    outline: none;
+    border-color: rgba(0,0,0, 0.5);
+}
+
+.button{
+    height: 2rem;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background: #0095F6;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 4px;
+}
+
+.button:active{
+    background-color: #0274c0;
+}
+
+input::placeholder{
+    padding-left: 5px;
+    color: #8E8E8E;
+    font-size: 12px;
+}
+
+.mid-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 33px;
+}
+
+.or{
+    color: rgba(var(--f52,142,142,142),1);
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-family: Lato;
+    margin: 0 18px;
+}
+
+.line{
+    width: 6.7rem;
+    height: 1.6px;
+    background: #DBDBDB;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    color: #385185;
+}
+
+.social-fb-text{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.forgot-pass-link{
+    text-align: center;
+}
+
+.forgot-pass-text{
+    text-decoration: none;
+    color: #00376B;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: 'Roboto';
+    letter-spacing: 0.2px;
+}
+
+.box2{
+    margin: 10px auto;
+    max-width: 22.5rem;
+    height: 4.8rem;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 1px;
+    background: #FFFFFF;
+}
+
+.box2-heading{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2-primary-heading{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+.signup-link{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 400;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    color: #0095F6;
+}

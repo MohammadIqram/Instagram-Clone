@@ -1,0 +1,64 @@
+.image__upload{
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+label {
+    background-color: indigo;
+    color: white;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  #file-chosen{
+    font-family: sans-serif;
+    margin-left: -3rem;
+  }
+
+  .image__caption{
+      width: 20rem;
+      box-sizing: border-box;
+      padding-left: 2rem;
+  }
+
+  .image__caption::placeholder{
+        padding-left: 1.5rem;
+  }
+
+  .image__caption:focus{
+      border: 1px solid #4B0082;
+  }
+
+  .upload__icon{
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .image__progress{
+      position: absolute !important;
+      width: 100%;
+      bottom: 0;
+  }
+
+  @media only screen and (max-width: 920px){
+      .image__upload{
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+
+      #file-chosen{
+          margin-left: 0;
+      }
+
+  }
